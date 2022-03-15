@@ -1,0 +1,62 @@
+body {
+	background: #bbbaba;
+}
+
+.homeContainer {
+	color: white;
+}
+
+.homeFilters {
+	display: flex;
+	justify-content: space-evenly;
+	border-radius: 10px;
+	margin-top: 10px;
+	height: 1.5rem;
+}
+
+.homeFilters select {
+	height: 25px;
+	margin-left: 10px;
+	border: 2px solid rgb(245, 245, 245);
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.breedsResetContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.breedsReset {
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	width: 50px;
+	height: 30px;
+	padding: 5px;
+}
+
+.breedsReset svg {
+	color: white;
+}
+
+.breedsPagination {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.breedsWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.breeds {
+	display: flex;
+}

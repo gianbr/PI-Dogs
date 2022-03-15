@@ -1,0 +1,49 @@
+.detailContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: #716d7c;
+	border-radius: 30px;
+	padding: 30px;
+	width: 900px;
+	align-items: center;
+	margin: 3rem auto;
+}
+
+.detailName {
+	font-size: 2rem;
+}
+
+.detailImage {
+	margin: auto;
+	width: 800px;
+	height: fit-content;
+}
+
+.detailTemperamentsContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.detailTemperamentsContainer h3 {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+.heightAndWeightAndSpan {
+	display: flex;
+	align-items: center;
+	line-height: 1.5em;
+}
+
+.heightAndWeightAndSpan h3 {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+.heightAndWeightAndSpan h4 {
+	margin: 0 5px;
+	padding: 0;
+}

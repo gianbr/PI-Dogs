@@ -48,13 +48,18 @@ router.get("/temperament", async (req, res) => {
 router.post("/dog", async (req, res) => {
 	const {
 		name,
-		weight,
-		height,
+		minimHeight,
+		maximHeight,
+		minimWeight,
+		maximWeight,
 		life_span,
 		image,
 		createdInDB,
 		temperament,
 	} = req.body;
+
+	let height = minimHeight + " - " + maximHeight;
+	let weight = minimWeight + " - " + maximWeight;
 
 	const breedCreated = await Dog.create({
 		name,
